@@ -1,7 +1,7 @@
 // AUTO SAFELINK FOR SAFELINK
 // Pengaturan
 var seconds = 5; // Countdown Timer
-var blog_url="http://www.daisuki-in.xyz/"; // Homepage Blog Safelink
+var blog_url="http://www.daisuki-in.xyz"; // Homepage Blog Safelink
 var article1="/2017/05/beginner-first-challenge.html"; // Article 1
 var article2="/2017/05/hal-yang-dilakukan-setelah-menginstall-kali-linux-light-edition-minimum-tools.html"; // Article 2
 var article3="/2017/05/pengalaman-menjadi-development-webworks-untuk-playbook.html"; // Article 3
