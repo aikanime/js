@@ -1,8 +1,8 @@
 // AUTO SAFELINK FOR SAFELINK
 var blog_url="http://www.poi-in.xyz"; // Homepage Blog Safelink
-var article1="/2017/05/beginner-first-challenge.html"; // Article 1
-var article2="/2018/01/seri-la-isekai-maou-shoukan-shoujo-dorei-majutsu-akan-mendapatkan-adaptasi-anime.html"; // Article 2
-var article3="/2017/05/mengatasi-error-network-interface-pada-cloning-virtual-box.html"; // Article 3
+var article1="/2018/02/learn-using-it-very-nice.html"; // Article 1
+var article2="/2018/02/it-benefits-in-field-of-business.html"; // Article 2
+var article3="/2018/02/technology-in-todays-time-how.html"; // Article 3
 var protected_links = "facebook.com,blogger.com,aikanime.web.id,histats.com"; // Protected Links
 function auto_safeconvert(){var a=window.location.hostname,c=0;""==protected_links||protected_links.match(a)?""==protected_links&&(protected_links=a):protected_links+=", "+a;var b;a=document.getElementsByTagName("a");a_to_va=a.length;var d=(b=a_to_fa()).length;for(var e,f,h="",g=0;g<a_to_va;g++){e=!1;for(f=0;0==e&&f<d;)!(h=a[g].href).match(b[f])&&h&&h.match("http")||(e=!0),f++;if(0==e){e=Base64.encode(h+",");f=Math.floor(3*Math.random()+1);var k=null;"1"==f&&(k=""+article1);"2"==f&&
 (k=""+article2);"3"==f&&(k=""+article3);a[g].href=""+blog_url+k+"?url="+e;a[g].rel="nofollow";c++}}a=document.getElementById("anonyminized");b=document.getElementById("found_links");a&&(a.innerHTML+=c);b&&(b.innerHTML+=a_to_va)}function a_to_fa(){return protected_links=protected_links.replace(" ",""),protected_links.split(",")}
