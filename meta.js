@@ -4,8 +4,8 @@
 // Licensed under the MIT License
 
 // Configuration -----------
-var postsDatePrefix = false;
-var accessOnly = false;
+var postsDatePrefix = !1;
+var accessOnly = !1;
 
 var useApiV3 = false;
 var apiKey = "600013225806-hul8hajo42l6igdlf898hvbemaeipep2.apps.googleusercontent.com,edOWjqSzl36Xpawye4TB8ged";
